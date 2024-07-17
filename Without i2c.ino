@@ -13,7 +13,7 @@
   Serial.begin(9600);  // Initiate a serial communication  
   SPI.begin();   // Initiate SPI bus  
   mfrc522.PCD_Init();  // Initiate MFRC522  
-  lcd.begin(16,2); // Turn on the blacklight and print a message.   
+  lcd.begin(20,4); // Turn on the blacklight and print a message.   
   pinMode(LED_G, OUTPUT);  
   pinMode(LED_R, OUTPUT);  
   pinMode(BUZZER, OUTPUT);  
